@@ -6,6 +6,8 @@ categories: [articles, Howto]
 tags: 
   - structure
 comments: true
+summary: 1.The structure of freshman21 theme You can see the simplest way of adding a page is just to add an HTML ( or markdown ) file in the root directory with a suitable name for the page you want to create. For example, aahome.md is the homepage link, about.md is the about page.
+
 ---
 
 

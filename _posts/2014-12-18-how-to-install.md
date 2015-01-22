@@ -4,7 +4,7 @@ title: How to install this theme
 categories: articles
 tags: [sample-post]
 comments: true
-description: How to install this theme, follow steps, very easy!
+summary: How to install this theme, follow steps, very easy!
 ---
 
 ## How to install Freshman theme?

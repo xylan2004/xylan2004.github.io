@@ -7,6 +7,8 @@ category: articles
 tags: 
 - reindeer
 - sample-post
+summary: **Santa Claus's reindeer** form an imaginary team of <q>flying reindeer</q> traditionally held to pull the sleigh of Santa Claus <del>and help him deliver Christmas gifts</del>. 
+
 ---
 
 

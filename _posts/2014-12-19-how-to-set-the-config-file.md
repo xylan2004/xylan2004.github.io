@@ -6,6 +6,7 @@ categories: [articles, Howto]
 tags: 
   - configure
 comments: true
+summary: This article help you to set the config.yml file
 ---
 
 The [config.yml file](https://github.com/yulijia/freshman21/blob/master/_config.yml) in the Freshman21 theme includes five parts. 
