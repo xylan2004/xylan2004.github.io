@@ -27,8 +27,10 @@ layout: default
     </header>
 
     <article class="post-content">
-      {{ post.content }}
-    </article> <hr />
+      {{ post.summary }}
+      <p><a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
+    </article> 
+    <hr />
     
     {% endfor %}
   
