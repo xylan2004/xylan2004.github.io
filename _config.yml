@@ -1,20 +1,20 @@
 ### Site info:
-title: Freshman21
-tagline: Another Jekyll theme, Freshman twenty-first
-author: Lijia YU
-email: yu@lijiayu.net
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
+title: XYLAN2004 
+tagline: Another Jekyll theme
+author: XYLAN2004
+email: xylan2004@gmail.com
+description: "a private blog." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "Jekyll, theme, xylan2004 "
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://xylan2004.github.io" # the base hostname & protocol for your site
 
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
-disqus_shortname: freshman21
+twitter_username: xylan2004
+github_username:  xylan2004
+disqus_shortname: xylan2004
 favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
+aboutme: Hi, this is xylan2004. . # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
 
 
@@ -55,12 +55,12 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
+    - name: xylan2004
+      href: http://xylan2004.github.io/
       title: Another Jekyll blog theme
     - name: author's website
-      href: http://yulijia.net/
-      title: Lijia Yu's website
+      href: http://xylan2004.github.io/
+      title: XYLAN2004
 
 
 ### Build settings
