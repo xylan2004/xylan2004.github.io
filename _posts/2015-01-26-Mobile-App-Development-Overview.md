@@ -7,6 +7,7 @@ body{
 (本文档可以任意转载引用，文中图片可能不是原创，如果图片版权所有者反对使用，请及时与我联系)
 
 ## 移动操作系统的历史
+--------
 
 * 上世纪90年代，是PalmOS一统江湖的局面（超过90%的市场），拥有数十万的开发者队伍，并有数万款应用软件，采用其作为操作系统的PDA一度总销量达到数千万。
 * 微软在1996年推出了嵌入式操作系统Windows CE，而PDA则是其重点发展方向。但和Windows的发展历程一样，一直到2000年推出Windows CE 3.0，微软才算初步取得成功。
@@ -18,14 +19,16 @@ body{
 * 当然，在中国还有个不得不提到的MTK。
 
 iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一副2005年~2013年，真正的智能移动操作系统的发展历史。
-<p style="font-size:10px; color:#336699;">from http://infogr8.com/infographics/app-developers-alliance-mobile-os-history/<p>
+
+<p style="font-size:10px; color:#336699;">from http://infogr8.com/infographics/app-developers-alliance-mobile-os-history/</p>
 ![0](http://infogr8.com/wp-content/uploads/2014/04/AppAlliance_Mobile-OS-History-02.jpg)
 
 ## 目前的市场占有率
+--------
 
-  调研机构Strategy Analytics最新的第三季度(2014年）报告中显示，Android以83.6%的市场占有率稳居移动操作系统市场之首。出货量为2.68亿，去年同期为2.06亿，市场份额由81.4%上升至83.6%。
+　　调研机构Strategy Analytics最新的第三季度(2014年）报告中显示，Android以83.6%的市场占有率稳居移动操作系统市场之首。出货量为2.68亿，去年同期为2.06亿，市场份额由81.4%上升至83.6%。
 
-  苹果出货量虽然从上年同期的3380万上升到3930万，但是它的市场份额却由13.4%降到12.3%。Strategy Analytics认为下滑的原因是苹果没有占据低端手机市场，机型单一的苹果的确在占有率上无法与Android匹敌。
+　　苹果出货量虽然从上年同期的3380万上升到3930万，但是它的市场份额却由13.4%降到12.3%。Strategy Analytics认为下滑的原因是苹果没有占据低端手机市场，机型单一的苹果的确在占有率上无法与Android匹敌。
 
 　　余下的市场则由Windows Phone和黑莓为主导。其中Windows Phone为3.3%，出货量为1050万部，略高于去年同期的1030万部，但份额却从4.1%跌至3.3%。
 
@@ -39,6 +42,7 @@ iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一�
 ![1](https://tctechcrunch2011.files.wordpress.com/2015/01/mcommerce-market-map-2-02.png?w=1024&h=606)
 
 ## 开发平台
+--------
 
 * 在iOS和Android之前，以原生开发为主
 * 跨平台的Java和QT也比较活跃
@@ -98,6 +102,7 @@ Hybrid（混合模式），可以实现跨平台，用户体验也可以做的�
 3. 不同平台浏览器兼容性问题仍然大量存在
 
 ## 参考文档
+--------
 以下列举一些文档供参考：
 
 1. [It’s not a web app. It’s an app you install from the web](http://blog.forecast.io/its-not-a-web-app-its-an-app-you-install-from-the-web/ "It’s not a web app. It’s an app you install from the web")
@@ -118,7 +123,9 @@ Hybrid（混合模式），可以实现跨平台，用户体验也可以做的�
 
 # Native App 开发
 \* 注意： 本文只是overview，每个主题都不会深入介绍。
+
 ## iOS
+--------
 iOS由于其封闭性，各版本之间的兼容性非常之好。而Apple的API做得也很好，尤其是官方文档，阅读的时候真是一种享受。网站是这个：
 [iOS Dev Center](https://developer.apple.com/devcenter/ios/index.action)
 
@@ -222,11 +229,14 @@ iOS应用可以通过虚拟机测试，这一点在上面的文章中都有讲�
 关于申请账号、安装证书，同样可以参考相关文章。
 
 ## Android
+--------
 
 Android分支版本太多了，很多厂商都做了扩展。我们这里只简要说明官方版本的android开发。
 
 ### Android系统架构
-<TODO:解释体系架构>
+
+**TODO:解释体系架构**
+
 官方提供的图，颜色很重：
 
 ![11](http://img.blog.csdn.net/20130524105706838)
