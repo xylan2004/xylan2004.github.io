@@ -1,6 +1,9 @@
 <style>
 body{
 	font: 13px/21px "Microsoft YaHei","宋体","Myriad Pro","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	line-height: 21px;
+	font-size: 14px;
 }
 h2,h3,h4 {
 	font-weight: bold;
