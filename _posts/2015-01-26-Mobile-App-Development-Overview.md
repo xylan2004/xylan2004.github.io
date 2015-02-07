@@ -1,10 +1,15 @@
 <style>
 body{
-	font-family: 微软雅黑;
+	font: font: 13px/21px "Microsoft YaHei","宋体","Myriad Pro","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2,h3,h4 {
+	font-weight: bold;
 }
 </style>
 # 移动应用开发的三种模式
 (本文档可以任意转载引用，文中图片可能不是原创，如果图片版权所有者反对使用，请及时与我联系)
+
+<br />
 
 ## 移动操作系统的历史
 --------
@@ -22,6 +27,7 @@ iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一�
 
 <p style="font-size:10px; color:#336699;">from http://infogr8.com/infographics/app-developers-alliance-mobile-os-history/</p>
 ![0](http://infogr8.com/wp-content/uploads/2014/04/AppAlliance_Mobile-OS-History-02.jpg)
+<br />
 
 ## 目前的市场占有率
 --------
@@ -35,11 +41,13 @@ iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一�
 　　黑莓占0.7%，出货量从250万降至230万，份额也从1%滑落到0.7%。而剩下一些冷门的操作系统仅在最后的0.1%市场份额中挣扎。
 
 ![0](http://connectwww.com/wp-content/uploads/2014/11/Mobile-Operating-System-Market-share-October-2014.jpg)
+<br />
 
 ### 2015年m-commerce market趋势
 
 下面这个图有点意思，贴一下：
 ![1](https://tctechcrunch2011.files.wordpress.com/2015/01/mcommerce-market-map-2-02.png?w=1024&h=606)
+<br />
 
 ## 开发平台
 --------
@@ -48,8 +56,10 @@ iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一�
 * 跨平台的Java和QT也比较活跃
 * 而iOS和Android出现后，伴随着软硬件的巨大进步，智能手机的上的应用功能甚至比PC上的还要复杂和强大，渐渐演化出三种开发模式
 
+<br />
 
 ## 移动应用（Mobile APP）的三种开发模式
+--------
 
 * Native apps – the “real apps” with full access
   
@@ -68,7 +78,10 @@ iOS之前那些陈芝麻烂谷子可能都没人想去关心了，下面是一�
 
 **下面，我们先展示一份结论性的数据，介绍三种开发模式的差异，然后分别对三种开发模式做一些较为详细的说明。**
 
+<br />
+
 # 三种开发模式对比
+--------
 
 以下是一份来自dzone的表格，对三种模式的差异以及优劣解释的很清楚：
 
@@ -101,6 +114,8 @@ Hybrid（混合模式），可以实现跨平台，用户体验也可以做的�
 2. 移动浏览器环境有其特殊性，例如touch事件、像素，和PC端的开发还是有较大的区别
 3. 不同平台浏览器兼容性问题仍然大量存在
 
+<br />
+
 ## 参考文档
 --------
 以下列举一些文档供参考：
@@ -124,6 +139,8 @@ Hybrid（混合模式），可以实现跨平台，用户体验也可以做的�
 # Native App 开发
 \* 注意： 本文只是overview，每个主题都不会深入介绍。
 
+<br />
+
 ## iOS
 --------
 iOS由于其封闭性，各版本之间的兼容性非常之好。而Apple的API做得也很好，尤其是官方文档，阅读的时候真是一种享受。网站是这个：
@@ -137,12 +154,15 @@ iOS由于其封闭性，各版本之间的兼容性非常之好。而Apple的API
 * 开发语言和环境
 * 如何测试和发布
 
+<br />
+
 ### iOS系统架构
 不多说，上几幅图：
 
 ![6](http://hi.csdn.net/attachment/201008/7/0_1281189503BwBH.gif)
 ![7](http://hi.csdn.net/attachment/201008/7/0_1281189549tYRd.gif)
 
+<br />
 
 ### iOS开发语言和环境
 据我了解，目前至少有6类语言能够开发iOS native app，相应地，它们都有不同的开发环境。
@@ -155,6 +175,8 @@ iOS由于其封闭性，各版本之间的兼容性非常之好。而Apple的API
 6. Pascal + Delphi, [网站请看这里](http://www.embarcadero.com/products/rad-studio/android-ios-code-samples-xe7)
 
 以下会对前三种做简要介绍。后三种鄙人实在没有时间去研究了。
+
+<br />
 
 #### Objective-C + Xcode
 这就是官方最早的开发模式了，目前来看，也是使iOS App最优的开发模式（根据成本和输出成正比的关系，这种开发模式应该是最耗时的）。Objective-C就是我们经常说的OC，它扩展了ANSI C，是C的超集。OC和Xcode都是apple官方出品，专属MacOS的财产。是的，你给了自己一个购买Mac笔记本的理由，不过别得意，下面还有穷孩子的解决方案。
@@ -175,11 +197,15 @@ iOS由于其封闭性，各版本之间的兼容性非常之好。而Apple的API
 
 还有个教程可参考[ios开发从入门到精通](http://wenku.baidu.com/course/view/1ce3571252d380eb62946d8c)。
 
+<br />
+
 ####  Swift + Xcode
 Swift，一种支持多编程范式，编译式编程语言，由苹果公司在2014年推出，用来撰写OS X和iOS应用程序[3]。2014年，在AppleWWDC所发布。苹果宣称Swift的特点是：快速、现代、安全、互动，而且明显优于Objective-C语言。Swift以LLVM编译，可以使用现有的Cocoa和Cocoa Touch框架。Xcode Playgrounds功能是Swift为苹果开发工具带来的最大创新，该功能提供强大的互动效果，能让Swift源代码在撰写过程中能实时显示出其运行结果。Swift在 Mac OS 和 iOS 平台可以和Object-C使用相同的运行时期(runtime)。这意味着Swift 程序可以运行于目前已存在的平台之上，包含 iOS 6 和 OS X 10.8 都可以运行Swift的程序.[7] 更重要的, Swift 和 Obj-C 的代码可并存于单一程序内, 这种延伸就如同C 和 C++ 的关系一样。
 
 Swift is an innovative new programming language for Cocoa and Cocoa Touch. Writing code is interactive and fun, the syntax is concise yet expressive, and apps run lightning-fast. Swift is ready for your next iOS and OS X project — or for addition into your current app — because Swift code works side-by-side with Objective-C. 参考[这里](https://developer.apple.com/swift/)。
 ![8](https://devimages.apple.com.edgekey.net/swift/images/swift-screenshot.jpg)
+
+<br />
 
 #### C# + Xamarin
 Xamarin 是由早期的Mono项目（这个请自行补课，简单来说.NET虚拟机在Linux上的开源实现）演变而来，原本是在Linux上执行C#程序的一个开放原始码项目。后来陆续发表支持iOS的Mono Touch framework以及Mono For Android Framework。因此它在市场上并不是一个新的产品。2011年，原本在Novell的Mono项目团队独立成立一家公司，正式将名称改为Xamarin。 
@@ -228,10 +254,14 @@ iOS应用可以通过虚拟机测试，这一点在上面的文章中都有讲�
 
 关于申请账号、安装证书，同样可以参考相关文章。
 
+<br />
+
 ## Android
 --------
 
 Android分支版本太多了，很多厂商都做了扩展。我们这里只简要说明官方版本的android开发。
+
+<br />
 
 ### Android系统架构
 
@@ -240,6 +270,8 @@ Android分支版本太多了，很多厂商都做了扩展。我们这里只简�
 官方提供的图，颜色很重：
 
 ![11](http://img.blog.csdn.net/20130524105706838)
+
+<br />
 
 ### 开发语言和环境
 
@@ -250,6 +282,8 @@ Android分支版本太多了，很多厂商都做了扩展。我们这里只简�
 3. C# + Xamarin
 
 前两个都是官方提供的，下面简要介绍一下第一个。
+
+<br />
 
 #### Java + Android Studio
 首先还是不能错过的[官方网站](http://developer.android.com/index.html)。 现在打头的是“Lollipop”版本。
