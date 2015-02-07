@@ -8,6 +8,9 @@ body{
 h2,h3,h4 {
 	font-weight: bold;
 }
+li{
+	margin-bottom: 10px;
+}
 </style>
 # 移动应用开发的三种模式
 (本文档可以任意转载引用，文中图片可能不是原创，如果图片版权所有者反对使用，请及时与我联系)
