@@ -8,6 +8,9 @@ body{
 h2,h3,h4 {
 	font-weight: bold;
 }
+h1 {
+	margin-top: 20px;
+}
 li{
 	margin-bottom: 10px;
 }
@@ -108,7 +111,7 @@ Hybrid（混合模式），可以实现跨平台，用户体验也可以做的�
 规律是，兼容性越强的技术，成本越低，性能越差；兼容性越差的技术，成本越高，性能越好。
 
 # Mobile Web App 开发
-
+--------
 这种模式比较简单，主要是HTML5/CSS3+Javascript开发，以网站的形式发布，可以是One-Page-Application，也可以由多个页面组成。
 手机端则通过浏览器访问，和访问一般的网站没有区别。
 
@@ -327,7 +330,7 @@ Android是大众消费，对平台没什么挑剔的，Windows下跑的欢着呢
 3. 在eclipse中，选择window -> show view -> other->Android->device， 在device界面中选择你手机的名字就行了。
 4. 直接run程序就可以在手机上看到效果了。
 
-<TODO:发布到商城>
+TODO:发布到商城
 
 # Hybrid App 开发
-<TODO：脖子疼了，改天继续>
+TODO：脖子疼了，改天继续
